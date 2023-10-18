@@ -38,10 +38,10 @@ multipleof10(90);
 
 // 3.Write a function that takes bill amount and item price and says how many quarters they'd get in return
 /*
-function fchange(bill, item) {
+function fchange(bill, item) {     //function for change 
     const change = bill - item;
     if (change >= 0) {
-        const quarters = Math.floor(change / 0.25); // using math.floor for w3 school to round up the change
+        const quarters = Math.floor(change / 0.25); // using math.floor learn it from w3 school to round up the change
         return quarters;
     } else {
         return 0; 

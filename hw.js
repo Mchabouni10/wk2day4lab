@@ -94,17 +94,18 @@ for (const denomination in billchange) {
 //from 1 to 100 with two exceptions. For numbers divisible by 3, print "Fizz" instead of the number, 
 //and for numbers divisible by 5 (and not 3),print "Buzz" instead. When you have that working, modify your program to print "FizzBuzz", 
 //for numbers that are divisible by both 3 and 5 (and still print "Fizz" or "Buzz" for numbers divisible by only one of those).
-/*
-for (let i = 1; i <= 100; i++) {
-    if (i % 3 === 0 && i % 5 === 0) {
-      console.log("FizzBuzz");
-    } else if (i % 3 === 0) {
-      console.log("Fizz");
-    } else if (i % 5 === 0) {
-      console.log("Buzz");
-    } else {
+
+for (let i = 1; i <= 100; i++) { // loop to iriterate from 1 to 100 for each value
+    if (i % 3 === 0 && i % 5 === 0) { //if condition that the number is dividable by 3 and 5 by using modulo 
+      console.log("FizzBuzz"); // print FizzBuzz beside the number 
+    } else if (i % 3 === 0) { // condition that the number is dividable by 3 by using modulo
+      console.log("Fizz");    // print Fizz beside the number 
+    } else if (i % 5 === 0) { // condition that the number is dividable by 5 by using modulo
+      console.log("Buzz");  //print Buzz beside the number 
+    } else { // if is not dividable by 3 and not dividable by 5 mean just print the number 
       console.log(i);
     }
   }
-  */
+  
+
   
